@@ -1,0 +1,49 @@
+{
+  "name": "node-ts-express-starter-kit",
+  "version": "1.0.0",
+  "description": "A boilerplate project to help you get started with node.js and typescript",
+  "main": "out/index.js",
+  "scripts": {
+    "clean": "rimraf out coverage",
+    "lint": "tslint src/**/*.ts",
+    "build": "tsc -p .",
+    "pretest": "npm run build",
+    "test": "npm run lint && jest --coverage",
+    "start": "node out/index.js",
+    "watch:build": "npm run build -- --watch",
+    "watch:start": "nodemon --watch out out/index.js",
+    "prewatch": "mkdirp out",
+    "watch": "run-p watch:**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpinebreeze/node-ts-express-starter-kit.git"
+  },
+  "author": "Richard Adams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alpinebreeze/node-ts-express-starter-kit/issues"
+  },
+  "homepage": "https://github.com/alpinebreeze/node-ts-express-starter-kit#readme",
+  "devDependencies": {
+    "@types/compression": "0.0.34",
+    "@types/express": "4.0.37",
+    "@types/helmet": "0.0.36",
+    "@types/jest": "20.0.8",
+    "@types/minimist": "1.2.0",
+    "@types/node": "6.0.88",
+    "jest": "20.0.4",
+    "mkdirp": "0.5.1",
+    "nodemon": "1.11.0",
+    "npm-run-all": "4.1.1",
+    "rimraf": "2.6.1",
+    "tslint": "5.7.0",
+    "typescript": "2.4.2"
+  },
+  "dependencies": {
+    "compression": "1.7.0",
+    "express": "4.15.4",
+    "helmet": "3.8.1",
+    "minimist": "1.2.0"
+  }
+}
