@@ -31,7 +31,7 @@
     "@types/helmet": "0.0.37",
     "@types/jest": "21.1.6",
     "@types/minimist": "1.2.0",
-    "@types/node": "8.0.51",
+    "@types/node": "8.0.53",
     "jest": "21.2.1",
     "mkdirp": "0.5.1",
     "nodemon": "1.12.1",
