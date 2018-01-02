@@ -1,4 +1,3 @@
-import * as compression from "compression";
 import * as express from "express";
 import * as helmet from "helmet";
 import * as parseArgs from "minimist";
@@ -21,7 +20,6 @@ export default {
         const app = express();
 
         app.use(helmet());
-        app.use(compression());
         app.use(router());
 
         app.listen(settings.port, () => {
