@@ -28,15 +28,15 @@
   "devDependencies": {
     "@types/express": "4.11.0",
     "@types/helmet": "0.0.37",
-    "@types/jest": "22.0.0",
+    "@types/jest": "22.0.1",
     "@types/minimist": "1.2.0",
-    "@types/node": "8.5.2",
-    "jest": "22.0.4",
+    "@types/node": "8.5.8",
+    "jest": "22.0.5",
     "mkdirp": "0.5.1",
-    "nodemon": "1.14.7",
+    "nodemon": "1.14.10",
     "npm-run-all": "4.1.2",
     "rimraf": "2.6.2",
-    "tslint": "5.8.0",
+    "tslint": "5.9.1",
     "typescript": "2.6.2"
   },
   "dependencies": {
