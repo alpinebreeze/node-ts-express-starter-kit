@@ -26,18 +26,18 @@
   },
   "homepage": "https://github.com/alpinebreeze/node-ts-express-starter-kit#readme",
   "devDependencies": {
-    "@types/express": "4.11.0",
+    "@types/express": "4.11.1",
     "@types/helmet": "0.0.37",
     "@types/jest": "22.1.1",
     "@types/minimist": "1.2.0",
-    "@types/node": "8.5.9",
+    "@types/node": "8.5.10",
     "jest": "22.1.4",
     "mkdirp": "0.5.1",
-    "nodemon": "1.14.11",
+    "nodemon": "1.14.12",
     "npm-run-all": "4.1.2",
     "rimraf": "2.6.2",
     "tslint": "5.9.1",
-    "typescript": "2.6.2"
+    "typescript": "2.7.1"
   },
   "dependencies": {
     "express": "4.16.2",
