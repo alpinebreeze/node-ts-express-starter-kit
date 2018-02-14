@@ -7,10 +7,10 @@
     "clean": "rimraf out coverage",
     "lint": "tslint src/**/*.ts",
     "build": "tsc -p .",
-    "pretest": "yarn run build",
-    "test": "yarn run lint && jest --coverage",
+    "pretest": "npm run build",
+    "test": "npm run lint && jest --coverage",
     "start": "node out/index.js",
-    "watch:build": "yarn run build --watch",
+    "watch:build": "npm run build --watch",
     "watch:start": "nodemon --delay 2 --watch out out/index.js",
     "prewatch": "mkdirp out",
     "watch": "run-p watch:**"
@@ -28,10 +28,10 @@
   "devDependencies": {
     "@types/express": "4.11.1",
     "@types/helmet": "0.0.37",
-    "@types/jest": "22.1.1",
+    "@types/jest": "22.1.2",
     "@types/minimist": "1.2.0",
-    "@types/node": "8.5.10",
-    "jest": "22.1.4",
+    "@types/node": "8.9.4",
+    "jest": "22.3.0",
     "mkdirp": "0.5.1",
     "nodemon": "1.14.12",
     "npm-run-all": "4.1.2",
@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "express": "4.16.2",
-    "helmet": "3.10.0",
+    "helmet": "3.11.0",
     "minimist": "1.2.0"
   }
 }
